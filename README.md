@@ -40,60 +40,6 @@ Garantir rastreabilidade, segurança e visibilidade sobre o fluxo de pessoas em 
 * **Banco de Dados:** PostgreSQL
 * **Autenticação:** JWT
 
-## 🗄️ Modelagem de Dados
-
-Principais entidades:
-
-* **Colaborador**
-* **Área**
-* **Registro de Acesso**
-
-Cada acesso registra:
-
-* Quem acessou
-* Qual área
-* Tipo (entrada/saída)
-* Status (autorizado/negado)
-* Timestamp
-* Operador responsável
-
-## 📊 Funcionalidades
-
-### 🔐 Autenticação
-
-* Login com JWT
-* Rotas protegidas
-
-### 👤 Colaboradores
-
-* CRUD completo
-* Ativação/Desativação
-
-### 🏭 Áreas
-
-* Cadastro com nível de risco
-* Definição de capacidade máxima
-
-### 📋 Registro de Acesso
-
-* Entrada e saída manual
-* Registro de acessos negados com justificativa
-
-### 📈 Dashboard
-
-* Total de acessos do dia
-* Acessos negados
-* Ocupação atual
-* Área com maior movimentação
-
-### 📜 Histórico
-
-* Filtros por:
-
-  * Período
-  * Área
-  * Colaborador
-
 ## ⚙️ Requisitos Técnicos
 
 * JWT para autenticação
