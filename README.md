@@ -17,22 +17,6 @@ O sistema substitui processos baseados em papel e planilhas por uma solução di
 
 Garantir rastreabilidade, segurança e visibilidade sobre o fluxo de pessoas em áreas restritas, permitindo tomada de decisão rápida por gestores.
 
-## 👥 Perfis de Usuário
-
-* **Operador de Segurança**
-
-  * Registra entradas e saídas
-  * Uso contínuo no dia a dia
-
-* **Gestor**
-
-  * Monitora dashboard
-  * Audita acessos
-
-* **Administrador**
-
-  * Gerencia colaboradores e áreas
-
 ## 🧱 Arquitetura
 
 * **Frontend:** Angular 21 + Tailwind CSS
